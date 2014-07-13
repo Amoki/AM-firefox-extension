@@ -1,9 +1,17 @@
 {
-  "name": "amoki_musique",
-  "title": "Amoki Musique",
+  "name": "amoki_music",
+  "title": "Amoki Music",
   "id": "jid1-eZl7OxfBYAtFqw",
-  "description": "Amoki Musique remote for Firefox",
+  "description": "Amoki Music remote for Firefox",
   "author": "Hugo Duroux",
   "license": "MIT",
-  "version": "0.1"
+  "version": "0.1",
+
+  "preferences": [{
+    "name": "url",
+    "title": "url",
+    "description": "Amoki-Music server url",
+    "type": "string",
+    "value": "http://127.0.0.1"
+  }]
 }
